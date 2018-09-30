@@ -1,13 +1,17 @@
 body{
+	width: 100%;
 	margin: 0px;
 	padding: 0px;
 }
 section{
+	font-family: "Source Sans Pro", sans-serif;
+	width: 100%;
+	background-image: url('http://soscreacionesweb.com/sites/default/files/fondo-slide-2_0.jpg');
+	background-color: white;
 	margin: 0px;
 	padding: 0px;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #222222;
 }
 
 .menu-pegajoso{
@@ -16,10 +20,11 @@ section{
 	height: 50px;
 	background-color: #252525;
 	z-index: 100;
+	box-shadow: 0px 10px 20px;
 }
 
 .menu-offcanvas{
-	position: absolute;
+	position: fixed;
 	width: 50%;
 	margin-top: 50px;
 	max-width: 350px;
@@ -124,7 +129,6 @@ section{
 	width: 100%;
 	padding-top: 2%;
 	padding-bottom: 2%;
-	background-color: #222222;
 }
 
 .carrusel-boostrap{
@@ -138,7 +142,7 @@ section{
 	height: 60px;
 	margin-bottom: 2%;
 	text-align: center;
-	color: white;
+	color: #222222;
 }
 
 .box-informacion div{
@@ -149,8 +153,64 @@ section{
 #cel{
 	text-decoration-line: none;
 	font-family: fantasy;
+	color: #222222;
+	font-size: 25px;
+}
+
+#cel:hover{
+	padding: 5px;
+	color: #252525;
+	border: solid 1px black;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #252525;
+}
+
+.lema{
+	font-family: fantasy;
+	letter-spacing: 5px;
+}
+
+.redes-sociales i{
+	margin-left: 2%;
+	font-size: 30px;
+	color: #222222;
+}
+
+.redes-sociales i:hover{
+	padding: 5px;
+	color: #252525;
+	border: solid 1px black;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #252525;
+}
+
+.box-nosotros{
+	margin: auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 90%;
+}
+
+
+.box-nosotros h3{
+	font-size: 40px;
+	font-family: fantasy;
+	color: #222222;
+	letter-spacing: 3px;
+}
+
+#quiensoy{
+	font-family: monospace;
+	font-size: 18px;
+	text-align: center;
+	color: #222222;
+}
+
+footer{
+	width: 100%;
+	text-align: center;
 	color: white;
-	font-size: 20px;
+	background-color: #252525;
 }
 
 @media (max-width: 800px){
