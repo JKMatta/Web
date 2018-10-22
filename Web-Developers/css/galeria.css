@@ -32,9 +32,9 @@ section{
 	height: 450px;
 	transform: translate(-400px, 0);
     transition: transform 1s ease;
-	background-color: rgba(25,25,25,0.9);
+	background-color: rgba(44, 44, 44, 0.9);
 	z-index: 100;
-	box-shadow: 2px 2px 20px #252525;
+	box-shadow: 4px 4px 20px #252525;
 }
 
 .content-offcanvas{
@@ -43,8 +43,8 @@ section{
 	height: 80%;
 	margin-top: 50px;
 	margin-left: 30px;
-	border: solid 1px white;
-	background-color: rgba(25,25,25,1);
+	border: solid 1px red;
+	background-color: rgb(36, 36, 36);
 	box-shadow: 0px 0px 15px #888888;
 }
 
@@ -67,7 +67,7 @@ section{
 }
 
 .content-offcanvas a{
-	border: solid 1px darkgreen;
+	border: solid 1px rgb(255, 0, 0);
 	border-radius: 5px;
 	margin-top: 10px;
 	padding: 10px;
@@ -101,6 +101,7 @@ section{
 	float: right;
 	margin-top: 10px;
 	display: none;
+	color: black;
 }
 
 .options-pegajoso{
